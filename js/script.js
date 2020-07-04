@@ -29,7 +29,7 @@ if (playerInput == '1') {
 }
 
 printMessage('Twój ruch to: ' + playerMove);
-
+// Zmienione warunki
 if (computerMove == 'kamień' && playerMove == 'papier') {
     printMessage('Ty wygrywasz!');
 } else if (computerMove == 'papier' && playerMove == 'nożyce') {
