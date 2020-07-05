@@ -40,4 +40,4 @@ function displayResult(argComputerMove, argPlayerMove) {
 
 displayResult(computerMove, playerMove);
 
-/* Teraz działa!*/
+/* Zmieniem tak jak podpowiedziałeś i teraz działa! */
