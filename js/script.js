@@ -11,7 +11,6 @@ function getMoveName(argMoveId) {
     }
 }
 
-
 let randomNumber = Math.floor(Math.random() * 3 + 1);
 console.log('Wylosowana liczba to: ' + randomNumber);
 let computerMove = getMoveName(randomNumber);
@@ -23,7 +22,6 @@ let playerMove = getMoveName(playerInput);
 printMessage('Twój ruch to: ' + playerMove);
 
 function displayResult(argComputerMove, argPlayerMove) {
-
     if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
         printMessage('Ty wygrywasz!');
     } else if (argComputerMove == 'papier' && argPlayerMove == 'nożyce') {
