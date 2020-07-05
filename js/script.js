@@ -23,9 +23,10 @@ printMessage('Twój ruch to: ' + playerMove);
 
 function displayResult(argComputerMove, argPlayerMove) {
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
-    if (argComputerMove == 'kamień' && argPlayerMove == 'papier')
+
+    if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
         printMessage('Ty wygrywasz!');
-    else if (argComputerMove == 'nożyce' && argPlayerMove == 'kamień') {
+    } else if (argComputerMove == 'nożyce' && argPlayerMove == 'kamień') {
         printMessage('Ty wygrywasz!');
     } else if (argComputerMove == 'papier' && argPlayerMove == 'nożyce') {
         printMessage('Ty wygrywasz!');
@@ -39,5 +40,3 @@ function displayResult(argComputerMove, argPlayerMove) {
 }
 
 displayResult(computerMove, playerMove);
-
-/* Zmieniem tak jak podpowiedziałeś i teraz działa! */
