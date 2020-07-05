@@ -23,7 +23,9 @@ printMessage('Twój ruch to: ' + playerMove);
 
 function displayResult(argComputerMove, argPlayerMove) {
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
-    if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
+    if (argComputerMove == 'kamień' && argPlayerMove == 'papier')
+        printMessage('Ty wygrywasz!');
+    else if (argComputerMove == 'nożyce' && argPlayerMove == 'kamień') {
         printMessage('Ty wygrywasz!');
     } else if (argComputerMove == 'papier' && argPlayerMove == 'nożyce') {
         printMessage('Ty wygrywasz!');
@@ -35,6 +37,7 @@ function displayResult(argComputerMove, argPlayerMove) {
         printMessage('Niestety przegrywasz!');
     }
 }
-displayResult(argComputerMove, argPlayerMove);
 
-/* wywolanie funkcji na zewnatrz. Nie wyswietla sie: printMessage('Ty wygrywasz!'); printMessage('Remis!'); printMessage('Nieznany ruch! Wybierz pomiędzy 1, 2 lub 3.'); printMessage('Niestety przegrywasz!');*/
+displayResult(computerMove, playerMove);
+
+/* Teraz działa!*/
