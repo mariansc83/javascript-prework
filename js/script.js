@@ -36,3 +36,5 @@ function displayResult(argComputerMove, argPlayerMove) {
     }
 }
 displayResult(argComputerMove, argPlayerMove);
+
+/* wywolanie funkcji na zewnatrz. Nie wyswietla sie: printMessage('Ty wygrywasz!'); printMessage('Remis!'); printMessage('Nieznany ruch! Wybierz pomiędzy 1, 2 lub 3.'); printMessage('Niestety przegrywasz!');*/
