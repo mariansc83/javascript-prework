@@ -1,3 +1,7 @@
+/* To jest commit, w którm został zawarty ten komentarz. Nie różni sie niczym w kodzie poza tym dodanym komentarzem, a na github jako commit wygląda trochę inaczej.
+Nie wiem o co biega...
+*/
+
 function playGame(playerInput) {
     clearMessages();
 
